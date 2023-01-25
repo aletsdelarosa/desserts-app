@@ -9,25 +9,61 @@
 /* Begin PBXBuildFile section */
 		D9F5B8FA297FD3D200653E5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F5B8F9297FD3D200653E5E /* AppDelegate.swift */; };
 		D9F5B8FC297FD3D200653E5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F5B8FB297FD3D200653E5E /* SceneDelegate.swift */; };
-		D9F5B8FE297FD3D200653E5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F5B8FD297FD3D200653E5E /* ViewController.swift */; };
 		D9F5B901297FD3D200653E5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F5B8FF297FD3D200653E5E /* Main.storyboard */; };
 		D9F5B903297FD3D400653E5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F5B902297FD3D400653E5E /* Assets.xcassets */; };
 		D9F5B906297FD3D400653E5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F5B904297FD3D400653E5E /* LaunchScreen.storyboard */; };
+		D9F5B910297FD41E00653E5E /* Dessert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F5B90F297FD41E00653E5E /* Dessert.swift */; };
+		D9F5B912297FD43500653E5E /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F5B911297FD43500653E5E /* Ingredient.swift */; };
+		D9F5B915297FD64800653E5E /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F5B914297FD64800653E5E /* LoaderViewController.swift */; };
+		D9F5B917297FDA8B00653E5E /* DessertsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F5B916297FDA8B00653E5E /* DessertsCollectionViewController.swift */; };
+		D9F5B919297FDBAB00653E5E /* DessertDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F5B918297FDBAB00653E5E /* DessertDetailTableViewController.swift */; };
+		D9F5B920298065D200653E5E /* DessertsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F5B91E298065D100653E5E /* DessertsCollectionViewCell.swift */; };
+		D9F5B9242980681400653E5E /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F5B9232980681400653E5E /* UIImageView.swift */; };
+		D9F5B92629806A4100653E5E /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F5B92529806A4100653E5E /* UIView.swift */; };
+		D9F5B92A29808E6C00653E5E /* DessertsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9F5B92929808E6C00653E5E /* DessertsCollectionViewCell.xib */; };
+		D9F5B92D2980950600653E5E /* DessertsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F5B92C2980950600653E5E /* DessertsRepository.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9F5B9382980B9C300653E5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9F5B8EE297FD3D100653E5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9F5B8F5297FD3D200653E5E;
+			remoteInfo = "desserts-app";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D9F5B8F6297FD3D200653E5E /* desserts-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "desserts-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F5B8F9297FD3D200653E5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9F5B8FB297FD3D200653E5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D9F5B8FD297FD3D200653E5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D9F5B900297FD3D200653E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9F5B902297FD3D400653E5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9F5B905297FD3D400653E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9F5B907297FD3D400653E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F5B90F297FD41E00653E5E /* Dessert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dessert.swift; sourceTree = "<group>"; };
+		D9F5B911297FD43500653E5E /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		D9F5B914297FD64800653E5E /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		D9F5B916297FDA8B00653E5E /* DessertsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertsCollectionViewController.swift; sourceTree = "<group>"; };
+		D9F5B918297FDBAB00653E5E /* DessertDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetailTableViewController.swift; sourceTree = "<group>"; };
+		D9F5B91E298065D100653E5E /* DessertsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertsCollectionViewCell.swift; sourceTree = "<group>"; };
+		D9F5B9232980681400653E5E /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		D9F5B92529806A4100653E5E /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		D9F5B92929808E6C00653E5E /* DessertsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DessertsCollectionViewCell.xib; sourceTree = "<group>"; };
+		D9F5B92C2980950600653E5E /* DessertsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertsRepository.swift; sourceTree = "<group>"; };
+		D9F5B9322980B9C300653E5E /* desserts-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "desserts-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D9F5B8F3297FD3D100653E5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F5B92F2980B9C300653E5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				D9F5B8F6297FD3D200653E5E /* desserts-app.app */,
+				D9F5B9322980B9C300653E5E /* desserts-appUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +93,72 @@
 		D9F5B8F8297FD3D200653E5E /* desserts-app */ = {
 			isa = PBXGroup;
 			children = (
+				D9F5B92B298094F400653E5E /* Repositories */,
+				D9F5B9222980680100653E5E /* Extensions */,
+				D9F5B91C298065A100653E5E /* Views */,
+				D9F5B913297FD62700653E5E /* Controllers */,
+				D9F5B90E297FD3E800653E5E /* Models */,
 				D9F5B8F9297FD3D200653E5E /* AppDelegate.swift */,
 				D9F5B8FB297FD3D200653E5E /* SceneDelegate.swift */,
-				D9F5B8FD297FD3D200653E5E /* ViewController.swift */,
 				D9F5B8FF297FD3D200653E5E /* Main.storyboard */,
 				D9F5B902297FD3D400653E5E /* Assets.xcassets */,
 				D9F5B904297FD3D400653E5E /* LaunchScreen.storyboard */,
 				D9F5B907297FD3D400653E5E /* Info.plist */,
 			);
 			path = "desserts-app";
+			sourceTree = "<group>";
+		};
+		D9F5B90E297FD3E800653E5E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D9F5B90F297FD41E00653E5E /* Dessert.swift */,
+				D9F5B911297FD43500653E5E /* Ingredient.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D9F5B913297FD62700653E5E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9F5B914297FD64800653E5E /* LoaderViewController.swift */,
+				D9F5B916297FDA8B00653E5E /* DessertsCollectionViewController.swift */,
+				D9F5B918297FDBAB00653E5E /* DessertDetailTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D9F5B91C298065A100653E5E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9F5B91D298065AC00653E5E /* Collection View Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D9F5B91D298065AC00653E5E /* Collection View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D9F5B91E298065D100653E5E /* DessertsCollectionViewCell.swift */,
+				D9F5B92929808E6C00653E5E /* DessertsCollectionViewCell.xib */,
+			);
+			path = "Collection View Cells";
+			sourceTree = "<group>";
+		};
+		D9F5B9222980680100653E5E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D9F5B9232980681400653E5E /* UIImageView.swift */,
+				D9F5B92529806A4100653E5E /* UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D9F5B92B298094F400653E5E /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				D9F5B92C2980950600653E5E /* DessertsRepository.swift */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +181,24 @@
 			productReference = D9F5B8F6297FD3D200653E5E /* desserts-app.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D9F5B9312980B9C300653E5E /* desserts-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9F5B93A2980B9C300653E5E /* Build configuration list for PBXNativeTarget "desserts-appUITests" */;
+			buildPhases = (
+				D9F5B92E2980B9C300653E5E /* Sources */,
+				D9F5B92F2980B9C300653E5E /* Frameworks */,
+				D9F5B9302980B9C300653E5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9F5B9392980B9C300653E5E /* PBXTargetDependency */,
+			);
+			name = "desserts-appUITests";
+			productName = "desserts-appUITests";
+			productReference = D9F5B9322980B9C300653E5E /* desserts-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +211,10 @@
 				TargetAttributes = {
 					D9F5B8F5297FD3D200653E5E = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					D9F5B9312980B9C300653E5E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D9F5B8F5297FD3D200653E5E;
 					};
 				};
 			};
@@ -116,6 +232,7 @@
 			projectRoot = "";
 			targets = (
 				D9F5B8F5297FD3D200653E5E /* desserts-app */,
+				D9F5B9312980B9C300653E5E /* desserts-appUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -127,7 +244,15 @@
 			files = (
 				D9F5B906297FD3D400653E5E /* LaunchScreen.storyboard in Resources */,
 				D9F5B903297FD3D400653E5E /* Assets.xcassets in Resources */,
+				D9F5B92A29808E6C00653E5E /* DessertsCollectionViewCell.xib in Resources */,
 				D9F5B901297FD3D200653E5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F5B9302980B9C300653E5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,13 +263,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9F5B8FE297FD3D200653E5E /* ViewController.swift in Sources */,
+				D9F5B92629806A4100653E5E /* UIView.swift in Sources */,
+				D9F5B915297FD64800653E5E /* LoaderViewController.swift in Sources */,
+				D9F5B9242980681400653E5E /* UIImageView.swift in Sources */,
+				D9F5B919297FDBAB00653E5E /* DessertDetailTableViewController.swift in Sources */,
+				D9F5B920298065D200653E5E /* DessertsCollectionViewCell.swift in Sources */,
 				D9F5B8FA297FD3D200653E5E /* AppDelegate.swift in Sources */,
+				D9F5B92D2980950600653E5E /* DessertsRepository.swift in Sources */,
+				D9F5B912297FD43500653E5E /* Ingredient.swift in Sources */,
+				D9F5B910297FD41E00653E5E /* Dessert.swift in Sources */,
 				D9F5B8FC297FD3D200653E5E /* SceneDelegate.swift in Sources */,
+				D9F5B917297FDA8B00653E5E /* DessertsCollectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F5B92E2980B9C300653E5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9F5B9392980B9C300653E5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9F5B8F5297FD3D200653E5E /* desserts-app */;
+			targetProxy = D9F5B9382980B9C300653E5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D9F5B8FF297FD3D200653E5E /* Main.storyboard */ = {
@@ -293,8 +441,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,8 +469,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,6 +481,40 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9F5B93B2980B9C300653E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F97Z4RY4JT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arc.desserts-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "desserts-app";
+			};
+			name = Debug;
+		};
+		D9F5B93C2980B9C300653E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F97Z4RY4JT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arc.desserts-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "desserts-app";
 			};
 			name = Release;
 		};
@@ -353,6 +535,15 @@
 			buildConfigurations = (
 				D9F5B90B297FD3D400653E5E /* Debug */,
 				D9F5B90C297FD3D400653E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9F5B93A2980B9C300653E5E /* Build configuration list for PBXNativeTarget "desserts-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F5B93B2980B9C300653E5E /* Debug */,
+				D9F5B93C2980B9C300653E5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

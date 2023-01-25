@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DessertsCollectionViewCell" customModule="desserts_app" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="440" height="250"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RlO-9I-7f9">
+                    <rect key="frame" x="0.0" y="0.0" width="440" height="250"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8WD-TZ-n5b">
+                            <rect key="frame" x="0.0" y="0.0" width="440" height="250"/>
+                        </imageView>
+                        <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tws-O9-bCb">
+                            <rect key="frame" x="0.0" y="0.0" width="440" height="250"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apple &amp; Blackberry Crumble" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="EQL-Mw-A6T">
+                            <rect key="frame" x="16" y="107.66666666666667" width="408" height="34.666666666666671"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <size key="shadowOffset" width="1" height="1"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="EQL-Mw-A6T" firstAttribute="leading" secondItem="RlO-9I-7f9" secondAttribute="leading" constant="16" id="4zb-Bx-san"/>
+                        <constraint firstItem="8WD-TZ-n5b" firstAttribute="centerY" secondItem="RlO-9I-7f9" secondAttribute="centerY" id="84J-C8-dyY"/>
+                        <constraint firstItem="Tws-O9-bCb" firstAttribute="centerX" secondItem="RlO-9I-7f9" secondAttribute="centerX" id="8wd-zx-Jkh"/>
+                        <constraint firstItem="Tws-O9-bCb" firstAttribute="centerY" secondItem="RlO-9I-7f9" secondAttribute="centerY" id="C0v-UJ-VI5"/>
+                        <constraint firstItem="8WD-TZ-n5b" firstAttribute="centerX" secondItem="RlO-9I-7f9" secondAttribute="centerX" id="UDa-OD-FcW"/>
+                        <constraint firstItem="Tws-O9-bCb" firstAttribute="height" secondItem="RlO-9I-7f9" secondAttribute="height" id="UTl-mu-bU9"/>
+                        <constraint firstItem="EQL-Mw-A6T" firstAttribute="centerY" secondItem="RlO-9I-7f9" secondAttribute="centerY" id="Xd7-bC-AV8"/>
+                        <constraint firstItem="Tws-O9-bCb" firstAttribute="width" secondItem="RlO-9I-7f9" secondAttribute="width" id="ZPr-f7-Kg8"/>
+                        <constraint firstItem="8WD-TZ-n5b" firstAttribute="height" secondItem="RlO-9I-7f9" secondAttribute="height" id="oFd-Ga-2sY"/>
+                        <constraint firstItem="8WD-TZ-n5b" firstAttribute="width" secondItem="RlO-9I-7f9" secondAttribute="width" id="pxK-aL-LZu"/>
+                        <constraint firstAttribute="trailing" secondItem="EQL-Mw-A6T" secondAttribute="trailing" constant="16" id="vmq-6z-BB7"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="RlO-9I-7f9" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="RX8-eT-KW7"/>
+                <constraint firstItem="RlO-9I-7f9" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Suz-LM-Dac"/>
+                <constraint firstItem="RlO-9I-7f9" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="ehM-he-ues"/>
+                <constraint firstItem="RlO-9I-7f9" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="u0i-cf-vpr"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="backgroundImageView" destination="8WD-TZ-n5b" id="Ei8-ON-fga"/>
+                <outlet property="backgroundView" destination="RlO-9I-7f9" id="S5h-nM-qgy"/>
+                <outlet property="nameLabel" destination="EQL-Mw-A6T" id="yVi-mV-BFb"/>
+            </connections>
+            <point key="canvasLocation" x="15" y="-194"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
